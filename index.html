@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://xpafmvjlwgmhmvhfsqrg.supabase.co; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>RJ Domótica · Casa inteligente, segurança e conectividade no Rio</title>
+<meta name="description" content="Automação residencial, câmeras, alarmes, controle de acesso, Wi-Fi profissional, cabeamento, sonorização e rastreamento veicular integrados num só sistema. RJ Domótica, Rio de Janeiro.">
+<meta name="theme-color" content="#0b0d10">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://rjdomotica.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="RJ Domótica · Sua casa inteligente, segura e conectada">
+<meta property="og:description" content="Monte sua casa inteligente no simulador e peça um orçamento pelo WhatsApp.">
+<meta property="og:url" content="https://rjdomotica.com/">
+<meta property="og:image" content="https://rjdomotica.com/img/logo-og.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo" id="topo">
+  <div class="topo-in">
+    <a class="marca" href="#inicio" aria-label="RJ Domótica, início">
+      <img src="img/marca.webp" width="40" height="40" alt="">
+      <span class="orb">RJ DOMÓTICA</span>
+    </a>
+    <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu" aria-label="Principal">
+      <a href="#solucoes">Soluções</a>
+      <a href="#simulador">Simulador</a>
+      <a href="#cenarios">Cenários</a>
+      <a href="#rastreador">Rastreador</a>
+      <a href="#contato">Contato</a>
+      <a class="menu-app" href="https://app.rjdomotica.com/" rel="noopener">Área do cliente</a>
+      <a class="btn btn-wa btn-sm" data-wa="Olá, RJ Domótica! Vim pelo site e quero saber mais." href="https://wa.me/5521997838067" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="grade-fundo" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <div class="hero-tx">
+      <span class="pill">Rio de Janeiro · projetos sob medida</span>
+      <h1>Sua casa <em>entende</em> você.</h1>
+      <p class="lead">Iluminação, clima, câmeras, alarme, portão, Wi-Fi, som e até o seu carro conversando num só sistema. Menos preocupação, mais tempo para quem você ama.</p>
+      <div class="acoes">
+        <a class="btn btn-ci" href="#simulador">Monte sua casa inteligente</a>
+        <a class="btn btn-wa" data-wa="Olá, RJ Domótica! Quero um orçamento para automatizar minha casa." href="https://wa.me/5521997838067" target="_blank" rel="noopener noreferrer">Pedir orçamento no WhatsApp</a>
+      </div>
+      <ul class="hero-sel">
+        <li>Projeto e instalação próprios</li>
+        <li>Controle pelo celular ou pela voz</li>
+        <li>Suporte depois da entrega</li>
+      </ul>
+    </div>
+    <div class="hero-vis" aria-hidden="true">
+      <svg viewBox="0 0 420 380" class="casa-hero">
+        <defs>
+          <linearGradient id="gl" x1="0" x2="1"><stop offset="0" stop-color="#38d6f5" stop-opacity=".9"/><stop offset="1" stop-color="#38d6f5" stop-opacity=".15"/></linearGradient>
+          <radialGradient id="rg"><stop offset="0" stop-color="#38d6f5" stop-opacity=".35"/><stop offset="1" stop-color="#38d6f5" stop-opacity="0"/></radialGradient>
+        </defs>
+        <circle cx="210" cy="210" r="170" fill="url(#rg)"/>
+        <path class="h-linha" d="M70 190 L210 80 L350 190 M95 172 V320 H325 V172" fill="none" stroke="url(#gl)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="180" y="250" width="60" height="70" rx="6" class="h-porta"/>
+        <rect x="120" y="205" width="48" height="40" rx="6" class="h-jan"/>
+        <rect x="252" y="205" width="48" height="40" rx="6" class="h-jan j2"/>
+        <g class="h-rede">
+          <line x1="210" y1="160" x2="144" y2="225"/><line x1="210" y1="160" x2="276" y2="225"/><line x1="210" y1="160" x2="210" y2="285"/>
+          <line x1="210" y1="160" x2="60" y2="110"/><line x1="210" y1="160" x2="360" y2="110"/><line x1="210" y1="160" x2="380" y2="300"/><line x1="210" y1="160" x2="40" y2="300"/>
+        </g>
+        <circle cx="210" cy="160" r="16" class="h-hub"/>
+        <circle cx="210" cy="160" r="16" class="h-pulso"/>
+        <g class="h-nos">
+          <circle cx="144" cy="225" r="6"/><circle cx="276" cy="225" r="6"/><circle cx="210" cy="285" r="6"/>
+          <circle cx="60" cy="110" r="7"/><circle cx="360" cy="110" r="7"/><circle cx="380" cy="300" r="7"/><circle cx="40" cy="300" r="7"/>
+        </g>
+      </svg>
+      <div class="chip c1"><b>22 °C</b> Quarto climatizado</div>
+      <div class="chip c2"><i class="ok"></i> Alarme ativado</div>
+      <div class="chip c3"><i class="ok"></i> Portão fechado</div>
+      <div class="chip c4"><b>4</b> câmeras online</div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFÍCIOS -->
+<section class="beneficios wrap" aria-label="Benefícios">
+  <div class="bnf rv"><span class="bi">◐</span><b>Conforto</b><small>Luz, clima e som no ponto certo, sem levantar do sofá.</small></div>
+  <div class="bnf rv"><span class="bi">⬡</span><b>Segurança</b><small>Câmeras, alarme e acesso avisando você na hora.</small></div>
+  <div class="bnf rv"><span class="bi">⚡</span><b>Praticidade</b><small>Um toque, um comando de voz ou nem isso: a casa faz sozinha.</small></div>
+  <div class="bnf rv"><span class="bi">◎</span><b>Controle</b><small>Tudo no celular, de onde você estiver.</small></div>
+  <div class="bnf rv"><span class="bi">⧗</span><b>Tempo otimizado</b><small>Rotinas automáticas devolvem minutos todos os dias.</small></div>
+</section>
+
+<!-- SOLUÇÕES -->
+<section class="sec" id="solucoes">
+  <div class="wrap">
+    <span class="kicker">Soluções</span>
+    <h2>Seis especialidades. <span class="ci">Um só cérebro.</span></h2>
+    <p class="sub">Cada serviço funciona sozinho, mas o melhor acontece quando eles se integram: a RJ projeta tudo para conversar entre si, num sistema inteligente que você controla de um só lugar.</p>
+
+    <div class="integra rv">
+      <div class="servicos">
+        <article class="srv">
+          <div class="srv-ic">⌂</div>
+          <h3>Automação residencial</h3>
+          <p>Iluminação, cortinas, ar-condicionado, portão e eletros com horários, sensores e comando de voz.</p>
+        </article>
+        <article class="srv">
+          <div class="srv-ic">◉</div>
+          <h3>Segurança</h3>
+          <p>Câmeras com imagem no celular, alarme, sensores, fechadura digital e controle de acesso.</p>
+        </article>
+        <article class="srv">
+          <div class="srv-ic">≡</div>
+          <h3>Cabeamento estruturado</h3>
+          <p>Rede organizada, rack, pontos certificados e infraestrutura pronta para crescer.</p>
+        </article>
+        <article class="srv">
+          <div class="srv-ic">◠</div>
+          <h3>Wi-Fi profissional</h3>
+          <p>Sinal forte em todos os cômodos e na área externa, com rede para visitantes separada.</p>
+        </article>
+        <article class="srv">
+          <div class="srv-ic">♫</div>
+          <h3>Sonorização</h3>
+          <p>Som ambiente embutido, home theater e música por ambiente, tudo pelo celular.</p>
+        </article>
+        <article class="srv">
+          <div class="srv-ic">⌖</div>
+          <h3>Rastreamento veicular</h3>
+          <p>Localização em tempo real, histórico de trajetos e bloqueio do veículo pelo app.</p>
+        </article>
+      </div>
+      <div class="cerebro" aria-hidden="true">
+        <div class="cerebro-anel"></div>
+        <div class="cerebro-nucleo"><span class="orb">RJ</span><small>integração</small></div>
+      </div>
+    </div>
+    <p class="infinito rv">As possibilidades são <b>infinitas e personalizáveis</b>: se tem um hábito na sua rotina, dá para automatizar.</p>
+  </div>
+</section>
+
+<!-- SIMULADOR -->
+<section class="sec sec-alt" id="simulador">
+  <div class="wrap">
+    <span class="kicker">Simulador</span>
+    <h2>Monte sua casa inteligente</h2>
+    <p class="sub">Toque nos recursos que fazem sentido para você e veja a casa ganhar vida. No fim, mande o projeto para a gente pelo WhatsApp.</p>
+
+    <div class="sim">
+      <div class="sim-planta">
+        <svg viewBox="0 0 600 400" id="planta" role="img" aria-label="Planta da casa com os recursos escolhidos">
+          <defs>
+            <filter id="brilho" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <g id="comodos"></g>
+          <g id="fios"></g>
+          <g id="nos"></g>
+          <g id="hub">
+            <circle cx="390" cy="220" r="20" class="hub-c"/>
+            <text x="390" y="225" text-anchor="middle" class="hub-t">RJ</text>
+          </g>
+        </svg>
+        <p class="sim-dica" id="sim-dica">Escolha um recurso ao lado para começar.</p>
+      </div>
+      <div class="sim-painel">
+        <div class="sim-grupos" id="sim-opcoes"></div>
+        <div class="medidores" id="medidores" aria-live="polite"></div>
+        <div class="sim-acoes">
+          <a class="btn btn-wa" id="sim-wa" href="https://wa.me/5521997838067" target="_blank" rel="noopener noreferrer">Pedir orçamento deste projeto</a>
+          <button class="btn btn-ghost" type="button" id="sim-limpar">Limpar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CENÁRIOS -->
+<section class="sec" id="cenarios">
+  <div class="wrap">
+    <span class="kicker">Cenários</span>
+    <h2>Um toque, e a casa faz o resto</h2>
+    <p class="sub">Cenários são rotinas que juntam vários equipamentos. Escolha um momento do dia e veja o que acontece.</p>
+    <div class="cen">
+      <div class="cen-abas" role="tablist" id="cen-abas"></div>
+      <div class="cen-palco">
+        <ol class="cen-linha" id="cen-linha" aria-live="polite"></ol>
+        <div class="celular" aria-hidden="true">
+          <div class="cel-tela">
+            <div class="cel-hora" id="cel-hora">18:42</div>
+            <div class="cel-notifs" id="cel-notifs"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RASTREADOR -->
+<section class="sec sec-alt" id="rastreador">
+  <div class="wrap rast">
+    <div class="rast-tx rv">
+      <span class="kicker">Rastreamento veicular</span>
+      <h2>Seu carro também faz parte da casa</h2>
+      <p class="sub">Veja onde o veículo está agora, os trajetos do dia e bloqueie pelo app se precisar. Integrado ao portão: chegou, abriu.</p>
+      <ul class="lista">
+        <li>Localização em tempo real e histórico de trajetos</li>
+        <li>Bloqueio remoto pelo celular</li>
+        <li>Instalação feita pela equipe RJ</li>
+      </ul>
+      <div class="oferta" id="oferta">
+        <small class="orb">PRÉ-CADASTRO</small>
+        <div class="of-preco"><strong id="of-mes">R$ 54,90</strong><span>/mês por <b id="of-meses">12</b> meses</span></div>
+        <p>Instalação por <b id="of-inst">R$ 49,95</b><span id="of-inst-de"></span>. Você só paga no ato da instalação.</p>
+      </div>
+      <div class="acoes">
+        <a class="btn btn-ci" href="https://app.rjdomotica.com/#precadastro" rel="noopener">Fazer pré-cadastro</a>
+        <a class="btn btn-ghost" href="https://app.rjdomotica.com/" rel="noopener">Já sou cliente: abrir o app</a>
+      </div>
+    </div>
+    <div class="mapa rv" aria-hidden="true">
+      <svg viewBox="0 0 360 300">
+        <g class="ruas"><path d="M0 60H360M0 150H360M0 240H360M70 0V300M180 0V300M290 0V300M0 300L360 0"/></g>
+        <path class="trajeto" d="M40 260 L70 240 L70 150 L180 150 L180 60 L290 60 L320 30"/>
+        <circle cx="40" cy="260" r="6" class="ponto-a"/>
+        <g class="carro"><circle r="14" class="carro-halo"/><circle r="8" class="carro-c"/></g>
+      </svg>
+      <div class="chip m1"><b>42</b> km/h</div>
+      <div class="chip m2"><i class="ok"></i> Veículo protegido</div>
+    </div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="sec" id="como">
+  <div class="wrap">
+    <span class="kicker">Como funciona</span>
+    <h2>Do primeiro “oi” à casa funcionando</h2>
+    <ol class="passos">
+      <li class="rv"><span class="orb">01</span><b>Conversa</b><small>Você conta sua rotina e o que quer resolver, pelo WhatsApp ou numa visita.</small></li>
+      <li class="rv"><span class="orb">02</span><b>Projeto</b><small>Desenhamos a solução para o seu imóvel e o seu orçamento, por etapas se preferir.</small></li>
+      <li class="rv"><span class="orb">03</span><b>Instalação</b><small>Equipe própria, obra limpa e tudo configurado e testado com você.</small></li>
+      <li class="rv"><span class="orb">04</span><b>Suporte</b><small>Ajustes, novos cenários e expansão quando quiser crescer.</small></li>
+    </ol>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec sec-alt" id="duvidas">
+  <div class="wrap estreito">
+    <span class="kicker">Dúvidas</span>
+    <h2>Perguntas frequentes</h2>
+    <details><summary>Preciso quebrar parede para automatizar?</summary><p>Na maioria dos casos, não. Muitos equipamentos são instalados nos pontos que já existem. Quando a obra está em andamento, aproveitamos para deixar a infraestrutura pronta.</p></details>
+    <details><summary>Dá para começar pequeno e ampliar depois?</summary><p>Sim. O projeto já nasce pensando em expansão: você começa pelo que mais importa (por exemplo, segurança e Wi-Fi) e acrescenta o resto quando quiser.</p></details>
+    <details><summary>Funciona com Alexa e Google?</summary><p>Sim, integramos com os principais assistentes de voz, além do controle pelo celular.</p></details>
+    <details><summary>E se a internet cair?</summary><p>Projetamos para que o essencial continue funcionando localmente: interruptores, fechaduras e alarme não dependem só da internet.</p></details>
+    <details><summary>Vocês atendem empresas e condomínios?</summary><p>Sim. Fazemos cabeamento, Wi-Fi, câmeras e controle de acesso para escritórios, lojas e condomínios.</p></details>
+    <details><summary>Onde vocês atendem?</summary><p>No Rio de Janeiro e região. Fale com a gente pelo WhatsApp para confirmar o seu bairro.</p></details>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="sec" id="contato">
+  <div class="wrap contato">
+    <div class="rv">
+      <span class="kicker">Orçamento</span>
+      <h2>Vamos desenhar a sua casa inteligente?</h2>
+      <p class="sub">Preencha e a mensagem já sai pronta no seu WhatsApp. Nada fica guardado no site: você envia direto para a nossa equipe.</p>
+      <a class="wa-grande" data-wa="Olá, RJ Domótica! Vim pelo site e quero conversar." href="https://wa.me/5521997838067" target="_blank" rel="noopener noreferrer">
+        <span class="orb">(21) 99783-8067</span><small>Toque para chamar no WhatsApp</small>
+      </a>
+    </div>
+    <form class="form rv" id="form-orc" novalidate>
+      <label class="campo">Seu nome<input id="o-nome" name="nome" autocomplete="name" maxlength="60" required></label>
+      <label class="campo">Bairro<input id="o-bairro" name="bairro" autocomplete="address-level3" maxlength="60"></label>
+      <fieldset class="campo">
+        <legend>Tipo de imóvel</legend>
+        <div class="opcs">
+          <label><input type="radio" name="tipo" value="Casa" checked> Casa</label>
+          <label><input type="radio" name="tipo" value="Apartamento"> Apartamento</label>
+          <label><input type="radio" name="tipo" value="Empresa"> Empresa</label>
+        </div>
+      </fieldset>
+      <fieldset class="campo">
+        <legend>Interesses</legend>
+        <div class="opcs">
+          <label><input type="checkbox" name="int" value="Automação"> Automação</label>
+          <label><input type="checkbox" name="int" value="Segurança"> Segurança</label>
+          <label><input type="checkbox" name="int" value="Cabeamento"> Cabeamento</label>
+          <label><input type="checkbox" name="int" value="Wi-Fi"> Wi-Fi</label>
+          <label><input type="checkbox" name="int" value="Sonorização"> Sonorização</label>
+          <label><input type="checkbox" name="int" value="Rastreador"> Rastreador</label>
+        </div>
+      </fieldset>
+      <label class="campo">Conte um pouco (opcional)<textarea id="o-msg" name="msg" rows="3" maxlength="500"></textarea></label>
+      <p class="erro" id="o-erro" role="alert"></p>
+      <button class="btn btn-wa" type="submit">Enviar pelo WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="wrap rod-in">
+    <img src="img/logo.webp" width="320" height="111" alt="RJ Domótica · Sistemas de automação" loading="lazy">
+    <div class="rod-links">
+      <a href="#solucoes">Soluções</a>
+      <a href="#simulador">Simulador</a>
+      <a href="https://app.rjdomotica.com/" rel="noopener">Área do cliente</a>
+      <a href="https://wa.me/5521997838067" target="_blank" rel="noopener noreferrer">WhatsApp (21) 99783-8067</a>
+    </div>
+    <small>© <span id="ano">2026</span> RJ Domótica · Rio de Janeiro, RJ</small>
+  </div>
+</footer>
+
+<a class="wa-flutua" data-wa="Olá, RJ Domótica! Vim pelo site e quero saber mais." href="https://wa.me/5521997838067" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+</a>
+</body>
+</html>
