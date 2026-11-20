@@ -140,10 +140,10 @@
     });
     if (ativos.size) {
       const itens = RECURSOS.filter((r) => ativos.has(r.id)).map((r) => '• ' + r.nome).join('\n');
-      simWa.href = waLink('Olá, RJ Domótica! Montei minha casa inteligente no site e quero um orçamento com:\n' + itens);
+      simWa.href = waLink('Olá, RJDOMÓTICA! Montei minha casa inteligente no site e quero um orçamento com:\n' + itens);
       simWa.removeAttribute('aria-disabled'); simWa.removeAttribute('tabindex');
     } else {
-      simWa.href = waLink('Olá, RJ Domótica! Quero um orçamento para automatizar minha casa.');
+      simWa.href = waLink('Olá, RJDOMÓTICA! Quero um orçamento para automatizar minha casa.');
       simWa.setAttribute('aria-disabled', 'true'); simWa.setAttribute('tabindex', '-1');
     }
     if (ultimo) dica.textContent = ultimo.dica;
@@ -205,7 +205,7 @@
       const mostra = () => {
         lis[i].classList.add('vis');
         const n = document.createElement('div'); n.className = 'notif';
-        const b = document.createElement('b'); b.textContent = 'RJ · ' + tag.toUpperCase();
+        const b = document.createElement('b'); b.textContent = 'RJDOMÓTICA · ' + tag.toUpperCase();
         n.append(b, document.createTextNode(tit));
         notifs.prepend(n);
         while (notifs.children.length > 4) notifs.lastChild.remove();
@@ -261,7 +261,7 @@
     const tipo = limpa((f.querySelector('input[name=tipo]:checked') || {}).value, 20);
     const ints = [...f.querySelectorAll('input[name=int]:checked')].map((i) => i.value);
     const msg = limpa(f.msg.value, 500);
-    let txt = 'Olá, RJ Domótica! Meu nome é ' + nome + '.';
+    let txt = 'Olá, RJDOMÓTICA! Meu nome é ' + nome + '.';
     if (bairro) txt += '\nBairro: ' + bairro;
     if (tipo) txt += '\nImóvel: ' + tipo;
     if (ints.length) txt += '\nTenho interesse em: ' + ints.join(', ');

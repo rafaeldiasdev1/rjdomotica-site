@@ -1,6 +1,6 @@
 # rjdomotica.com
 
-Site institucional da RJ Domótica, publicado pelo GitHub Pages em https://rjdomotica.com.
+Site institucional da RJDOMÓTICA, publicado pelo GitHub Pages em https://rjdomotica.com.
 
 - 100% estático: `index.html`, `style.css`, `app.js` e `img/`. Sem build, sem dependências.
 - O app de rastreamento e o painel ficam em outro repositório (`rastreador-rj`, em app.rjdomotica.com).
