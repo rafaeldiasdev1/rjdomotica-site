@@ -2,6 +2,10 @@
 (() => {
   const WA = '5521997838067';
   const OFERTA_URL = 'https://xpafmvjlwgmhmvhfsqrg.supabase.co/functions/v1/api/oferta';
+  if (location.protocol === 'http:' && /(^|\.)rjdomotica\.com$/.test(location.hostname)) {
+    location.replace('https://' + location.host + location.pathname + location.search + location.hash);
+    return;
+  }
   document.documentElement.classList.add('js');
   const $ = (id) => document.getElementById(id);
   const SVGNS = 'http://www.w3.org/2000/svg';
