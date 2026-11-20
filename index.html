@@ -21,16 +21,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="style.css?v=4">
-<script src="app.js?v=4" defer></script>
+<link rel="stylesheet" href="style.css?v=5">
+<script src="app.js?v=5" defer></script>
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 
 <header class="topo" id="topo">
   <div class="topo-in">
-    <a class="marca" href="#inicio" aria-label="Início">
-      <img src="img/logo-topo.webp" width="184" height="52" alt="RJDOMÓTICA · Sistemas de automação">
+    <a class="marca" href="#inicio" aria-label="RJDOMÓTICA, início">
+      <img src="img/marca-160.webp" width="44" height="44" alt="">
+      <span class="marca-tx"><b class="orb">DOMÓTICA</b><small>SISTEMAS DE AUTOMAÇÃO</small></span>
     </a>
     <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
     <nav class="menu" id="menu" aria-label="Principal">
@@ -80,8 +81,10 @@
           <line x1="210" y1="160" x2="144" y2="225"/><line x1="210" y1="160" x2="276" y2="225"/><line x1="210" y1="160" x2="210" y2="285"/>
           <line x1="210" y1="160" x2="60" y2="110"/><line x1="210" y1="160" x2="360" y2="110"/><line x1="210" y1="160" x2="380" y2="300"/><line x1="210" y1="160" x2="40" y2="300"/>
         </g>
-        <circle cx="210" cy="160" r="16" class="h-hub"/>
-        <circle cx="210" cy="160" r="16" class="h-pulso"/>
+        <clipPath id="hero-clip"><circle cx="210" cy="160" r="23"/></clipPath>
+        <circle cx="210" cy="160" r="27" class="h-hub"/>
+        <image href="img/marca-160.webp" x="185" y="135" width="50" height="50" clip-path="url(#hero-clip)"/>
+        <circle cx="210" cy="160" r="27" class="h-pulso"/>
         <g class="h-nos">
           <circle cx="144" cy="225" r="6"/><circle cx="276" cy="225" r="6"/><circle cx="210" cy="285" r="6"/>
           <circle cx="60" cy="110" r="7"/><circle cx="360" cy="110" r="7"/><circle cx="380" cy="300" r="7"/><circle cx="40" cy="300" r="7"/>
